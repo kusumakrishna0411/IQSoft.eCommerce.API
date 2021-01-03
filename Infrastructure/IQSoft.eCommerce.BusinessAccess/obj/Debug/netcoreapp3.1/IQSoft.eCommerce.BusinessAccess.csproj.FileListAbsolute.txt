@@ -1,0 +1,16 @@
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.deps.json
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.dll
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.pdb
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Entities.dll
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.ResourceAccess.dll
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.dll
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Entities.pdb
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.pdb
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.ResourceAccess.pdb
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.csprojAssemblyReference.cache
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.AssemblyInfoInputs.cache
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.AssemblyInfo.cs
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.csproj.CoreCompileInputs.cache
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.csproj.CopyComplete
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.dll
+F:\Narasimha\eCommerceAPI\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.pdb

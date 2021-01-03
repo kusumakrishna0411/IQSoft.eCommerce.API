@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/93223b90-9ca8-4cf7-b455-4b08847f0757/resourcegroups/SalesForce/providers/microsoft.insights/components/MobileAppInsights</ApplicationInsightsResourceId>
+    <UserSecretsId>bcf2d7c3-088f-4005-a77e-e1db51320e0b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="1.16.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.14.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="System.Data.Common" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\IQSoft.eCommerce.DIContainer\IQSoft.eCommerce.DIContainer.csproj" />
+    <ProjectReference Include="..\..\Common\IQSoft.eCommerce.Entities\IQSoft.eCommerce.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\IQSoft.eCommerce.Utilities\IQSoft.eCommerce.Utilities.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\IQSoft.eCommerce.BusinessAccess\IQSoft.eCommerce.BusinessAccess.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\IQSoft.eCommerce.ResourceAccess\IQSoft.eCommerce.ResourceAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,16 @@
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.deps.json
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.dll
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.pdb
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.Entities.dll
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.ResourceAccess.dll
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.Utilities.dll
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.Entities.pdb
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.Utilities.pdb
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\bin\Release\netcoreapp3.1\IQSoft.eCommerce.ResourceAccess.pdb
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.csprojAssemblyReference.cache
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.AssemblyInfoInputs.cache
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.AssemblyInfo.cs
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.csproj.CoreCompileInputs.cache
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.csproj.CopyComplete
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.dll
+D:\V1SalesForce247\Salesforce247Api\src\Infrastructure\IQSoft.eCommerce.BusinessAccess\obj\Release\netcoreapp3.1\IQSoft.eCommerce.BusinessAccess.pdb

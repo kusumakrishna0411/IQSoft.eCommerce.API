@@ -1,0 +1,12 @@
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.deps.json
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.dll
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.pdb
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Entities.dll
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.Entities.pdb
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.csprojAssemblyReference.cache
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.AssemblyInfoInputs.cache
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.AssemblyInfo.cs
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.csproj.CoreCompileInputs.cache
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.csproj.CopyComplete
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.dll
+F:\Narasimha\eCommerceAPI\Common\IQSoft.eCommerce.Utilities\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.Utilities.pdb

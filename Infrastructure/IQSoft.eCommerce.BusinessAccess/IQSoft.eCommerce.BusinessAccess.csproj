@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="1.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\IQSoft.eCommerce.Entities\IQSoft.eCommerce.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\IQSoft.eCommerce.Utilities\IQSoft.eCommerce.Utilities.csproj" />
+    <ProjectReference Include="..\IQSoft.eCommerce.ResourceAccess\IQSoft.eCommerce.ResourceAccess.csproj" />
+  </ItemGroup>
+
+</Project>

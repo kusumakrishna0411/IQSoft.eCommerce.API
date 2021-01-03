@@ -1,0 +1,391 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.DIContainer\\IQSoft.eCommerce.DIContainer.csproj": {}
+  },
+  "projects": {
+    "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.DIContainer\\IQSoft.eCommerce.DIContainer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.DIContainer\\IQSoft.eCommerce.DIContainer.csproj",
+        "projectName": "IQSoft.eCommerce.DIContainer",
+        "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.DIContainer\\IQSoft.eCommerce.DIContainer.csproj",
+        "packagesPath": "C:\\Users\\KUSUMA\\.nuget\\packages\\",
+        "outputPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.DIContainer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "F:\\Narasimha\\eCommerceAPI\\NuGet.Config",
+          "C:\\Users\\KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.BusinessAccess\\IQSoft.eCommerce.BusinessAccess.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.BusinessAccess\\IQSoft.eCommerce.BusinessAccess.csproj"
+              },
+              "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj",
+        "projectName": "IQSoft.eCommerce.Entities",
+        "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj",
+        "packagesPath": "C:\\Users\\KUSUMA\\.nuget\\packages\\",
+        "outputPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "F:\\Narasimha\\eCommerceAPI\\NuGet.Config",
+          "C:\\Users\\KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj",
+        "projectName": "IQSoft.eCommerce.Utilities",
+        "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj",
+        "packagesPath": "C:\\Users\\KUSUMA\\.nuget\\packages\\",
+        "outputPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "F:\\Narasimha\\eCommerceAPI\\NuGet.Config",
+          "C:\\Users\\KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.21.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.BusinessAccess\\IQSoft.eCommerce.BusinessAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.BusinessAccess\\IQSoft.eCommerce.BusinessAccess.csproj",
+        "projectName": "IQSoft.eCommerce.BusinessAccess",
+        "projectPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.BusinessAccess\\IQSoft.eCommerce.BusinessAccess.csproj",
+        "packagesPath": "C:\\Users\\KUSUMA\\.nuget\\packages\\",
+        "outputPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.BusinessAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "F:\\Narasimha\\eCommerceAPI\\NuGet.Config",
+          "C:\\Users\\KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj"
+              },
+              "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj"
+              },
+              "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj",
+        "projectName": "IQSoft.eCommerce.ResourceAccess",
+        "projectPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\IQSoft.eCommerce.ResourceAccess.csproj",
+        "packagesPath": "C:\\Users\\KUSUMA\\.nuget\\packages\\",
+        "outputPath": "F:\\Narasimha\\eCommerceAPI\\Infrastructure\\IQSoft.eCommerce.ResourceAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "F:\\Narasimha\\eCommerceAPI\\NuGet.Config",
+          "C:\\Users\\KUSUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Entities\\IQSoft.eCommerce.Entities.csproj"
+              },
+              "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj": {
+                "projectPath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FirebaseAdmin": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[2.0.0-preview1-final, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.6.0-preview3.19128.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

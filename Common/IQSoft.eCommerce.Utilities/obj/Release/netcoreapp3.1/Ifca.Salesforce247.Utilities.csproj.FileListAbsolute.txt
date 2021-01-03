@@ -1,0 +1,12 @@
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\bin\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.deps.json
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\bin\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.dll
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\bin\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.pdb
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\bin\Release\netcoreapp3.1\Ifca.Salesforce247.Entities.dll
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\bin\Release\netcoreapp3.1\Ifca.Salesforce247.Entities.pdb
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.csprojAssemblyReference.cache
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.AssemblyInfoInputs.cache
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.AssemblyInfo.cs
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.csproj.CoreCompileInputs.cache
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.csproj.CopyComplete
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.dll
+D:\V1SalesForce247\Salesforce247Api\src\Common\Ifca.Salesforce247.Utilities\obj\Release\netcoreapp3.1\Ifca.Salesforce247.Utilities.pdb

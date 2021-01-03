@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "3F0WTHeXASsAcRIiGZbmnVWnMME9l0IYBJlJEvOf5sT0oH5qPPJ1HKJsO6BjvUGFsUVxXyHLClbSBdx0uW4NHg==",
+  "success": true,
+  "projectFilePath": "F:\\Narasimha\\eCommerceAPI\\Common\\IQSoft.eCommerce.Utilities\\IQSoft.eCommerce.Utilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\firebaseadmin\\1.16.0\\firebaseadmin.1.16.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\google.api.gax\\2.7.0\\google.api.gax.2.7.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\google.api.gax.rest\\2.7.0\\google.api.gax.rest.2.7.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\google.apis\\1.40.0\\google.apis.1.40.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\google.apis.auth\\1.40.0\\google.apis.auth.1.40.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\google.apis.core\\1.40.0\\google.apis.core.1.40.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.8\\microsoft.extensions.caching.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.8\\microsoft.extensions.caching.memory.3.1.8.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.8\\microsoft.extensions.dependencyinjection.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\microsoft.extensions.options\\3.1.8\\microsoft.extensions.options.3.1.8.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\sendgrid\\9.21.0\\sendgrid.9.21.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\starkbank-ecdsa\\1.2.0\\starkbank-ecdsa.1.2.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\KUSUMA\\.nuget\\packages\\system.interactive.async\\3.2.0\\system.interactive.async.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
