@@ -47,11 +47,14 @@ namespace IQSoft.eCommerce.API.Controllers
         [Route("[action]")]
         [AllowAnonymous]
         [HttpPost]
-        public JsonWebToken Generate(string userName, string password)
+        public IActionResult Generate(string userName, string password)
         {
-            return _tokenProvider.CreateToken(
-                 userName
-                , password);
+            var token = _tokenProvider.CreateToken(userName, password);
+            if (token.access_token is null)
+            {
+                return BadRequest("Credentials are invalid!.");
+            }
+            return Ok(token);
         }
 
         [Route("[action]")]

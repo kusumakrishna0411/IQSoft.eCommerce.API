@@ -45,8 +45,10 @@ namespace IQSoft.eCommerce.API.Controllers
             }
             catch (System.Exception ex)
             {
-                return BadRequest("Error getting information getHomeDataDetails ");
+
+                return BadRequest("Error getting information getHomeDataDetails "+ex.ToString());
             }
         }
+
     }
 }

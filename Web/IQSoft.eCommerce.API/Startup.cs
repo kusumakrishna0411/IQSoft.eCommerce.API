@@ -78,7 +78,7 @@ namespace IQSoft.eCommerce.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Salesforce247 API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "IQSoft.eCommerce API", Version = "v1" });
             });
 
         }
@@ -99,7 +99,7 @@ namespace IQSoft.eCommerce.API
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Salesforce247 API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "IQSoft.eCommerce API V1");
                 c.RoutePrefix = string.Empty;
             });
 
