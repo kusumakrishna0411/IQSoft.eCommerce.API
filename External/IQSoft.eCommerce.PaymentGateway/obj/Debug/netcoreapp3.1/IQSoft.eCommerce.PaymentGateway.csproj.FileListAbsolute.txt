@@ -10,9 +10,9 @@ F:\Narasimha\eCommerceAPI\External\Ifca.Salesforce247.PaymentGateway\obj\Debug\n
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.deps.json
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.dll
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\bin\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.pdb
+F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.csprojAssemblyReference.cache
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.AssemblyInfoInputs.cache
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.AssemblyInfo.cs
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.csproj.CoreCompileInputs.cache
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.dll
 F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.pdb
-F:\Narasimha\eCommerceAPI\External\IQSoft.eCommerce.PaymentGateway\obj\Debug\netcoreapp3.1\IQSoft.eCommerce.PaymentGateway.csprojAssemblyReference.cache

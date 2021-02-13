@@ -351,3 +351,12 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Common/IQSoft.eCommerce.DIContainer/[Bb]in/
+Common/IQSoft.eCommerce.Entities/[Bb]in/
+Common/IQSoft.eCommerce.Utilities/[Bb]in/
+.vs/IQSoft.eCommerce/v16/.suo
+Infrastructure/IQSoft.eCommerce.BusinessAccess/[Oo]bj/
+Web/IQSoft.eCommerce.API/[Oo]bj/
+Web/IQSoft.eCommerce.API/[Oo]bj/
+
+.vs/IQSoft.eCommerce/DesignTimeBuild/.dtbcache.v2

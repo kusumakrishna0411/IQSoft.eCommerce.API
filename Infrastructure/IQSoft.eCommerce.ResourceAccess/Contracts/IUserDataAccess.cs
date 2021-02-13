@@ -16,5 +16,7 @@ namespace IQSoft.eCommerce.ResourceAccess.Contracts
         public List<User> Narasimha();
 
         public object getHomeDataDetails();
+
+        public object GetItemDetailsByCategoy(int categoryId);
     }
 }

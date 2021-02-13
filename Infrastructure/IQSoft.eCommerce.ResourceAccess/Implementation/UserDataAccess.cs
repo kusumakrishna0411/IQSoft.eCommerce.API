@@ -7,6 +7,7 @@ using IQSoft.eCommerce.Utilities.Extensions;
 using IQSoft.eCommerce.Utilities.Communication;
 using System;
 using IQSoft.eCommerce.Entities.Core;
+using Microsoft.Data.SqlClient;
 
 namespace IQSoft.eCommerce.ResourceAccess.Implementation
 {
@@ -120,6 +121,28 @@ namespace IQSoft.eCommerce.ResourceAccess.Implementation
         {
             var clientDbContext = new ClientDbContext();
             return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetHomeDataDetails]()");
+
+        }
+
+        public object GetItemDetailsByCategoy (int categoryId)
+        {
+            var clientDbContext = new ClientDbContext();
+            try {
+                //Creating instance of SqlParameter  
+                SqlParameter PmtrName = new SqlParameter();
+                PmtrName.ParameterName = "@CategoryId"; // Defining Name  
+                PmtrName.SqlDbType = SqlDbType.Int; // Defining DataType  
+                PmtrName.Direction = ParameterDirection.Input; // Setting the direction
+                PmtrName.Value = categoryId;
+                List<SqlParameter> lst = new List<SqlParameter>();
+                lst.Add(PmtrName);
+                return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetItemDetailsByCategoy](@categoryId)", lst);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return ex.ToString();
+            }
 
         }
     }
