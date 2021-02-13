@@ -56,6 +56,11 @@ namespace IQSoft.eCommerce.BusinessAccess.Implementation
         {
             return this.userDataAccess.GetItemDetailsByCategoy(categoryId);
         }
+
+        public object GetItemDetailsByCategoy2(int categoryId)
+        {
+            return this.userDataAccess.GetItemDetailsByCategoy2(categoryId);
+        }
     }
    
 }

@@ -68,5 +68,20 @@ namespace IQSoft.eCommerce.API.Controllers
             }
         }
 
+        [Route("[action]")]
+        [HttpGet]
+        [Authorize]
+        public object GetItemDetailsByCategoyType2(int categoryId)
+        {
+            try
+            {
+                return Ok(this.userBusinessAccess.GetItemDetailsByCategoy2(categoryId));
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest("Error getting information GetItemDetailsByCategoy " + ex.ToString());
+            }
+        }
     }
 }

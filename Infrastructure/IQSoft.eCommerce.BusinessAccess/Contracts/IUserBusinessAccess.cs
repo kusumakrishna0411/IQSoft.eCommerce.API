@@ -19,5 +19,7 @@ namespace IQSoft.eCommerce.BusinessAccess.Contracts
         public object getHomeDataDetails();
 
         public object GetItemDetailsByCategoy(int categoryId);
+
+        public object GetItemDetailsByCategoy2(int categoryId);
     }
 }

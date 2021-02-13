@@ -145,5 +145,28 @@ namespace IQSoft.eCommerce.ResourceAccess.Implementation
             }
 
         }
+
+        public object GetItemDetailsByCategoy2(int categoryId)
+        {
+            var clientDbContext = new ClientDbContext();
+            try
+            {
+                //Creating instance of SqlParameter  
+                SqlParameter PmtrName = new SqlParameter();
+                PmtrName.ParameterName = "@CategoryId"; // Defining Name  
+                PmtrName.SqlDbType = SqlDbType.Int; // Defining DataType  
+                PmtrName.Direction = ParameterDirection.Input; // Setting the direction
+                PmtrName.Value = categoryId;
+                List<SqlParameter> lst = new List<SqlParameter>();
+                lst.Add(PmtrName);
+                return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetItemDetailsByCategoy2](@categoryId)", lst);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return ex.ToString();
+            }
+
+        }
     }
 }
