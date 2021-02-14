@@ -20,5 +20,9 @@ namespace IQSoft.eCommerce.ResourceAccess.Contracts
         public object GetItemDetailsByCategoy(int categoryId);
 
         public object GetItemDetailsByCategoy2(int categoryId);
+
+        public object GetProductResults(int categoryId);
+
+        public object GetProductDetails(int productId);
     }
 }

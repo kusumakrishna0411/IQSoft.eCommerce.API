@@ -83,5 +83,37 @@ namespace IQSoft.eCommerce.API.Controllers
                 return BadRequest("Error getting information GetItemDetailsByCategoy " + ex.ToString());
             }
         }
+
+        [Route("[action]")]
+        [HttpGet]
+        [Authorize]
+        public object GetProductResults(int categoryId)
+        {
+            try
+            {
+                return Ok(this.userBusinessAccess.GetProductResults(categoryId));
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest("Error getting information GetProductResults " + ex.ToString());
+            }
+        }
+
+        [Route("[action]")]
+        [HttpGet]
+        [Authorize]
+        public object GetProductDetails(int productId)
+        {
+            try
+            {
+                return Ok(this.userBusinessAccess.GetProductDetails(productId));
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest("Error getting information productId " + ex.ToString());
+            }
+        }
     }
 }

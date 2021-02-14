@@ -168,5 +168,51 @@ namespace IQSoft.eCommerce.ResourceAccess.Implementation
             }
 
         }
+
+        public object GetProductResults(int categoryId)
+        {
+            var clientDbContext = new ClientDbContext();
+            try
+            {
+                //Creating instance of SqlParameter  
+                SqlParameter PmtrName = new SqlParameter();
+                PmtrName.ParameterName = "@CategoryId"; // Defining Name  
+                PmtrName.SqlDbType = SqlDbType.Int; // Defining DataType  
+                PmtrName.Direction = ParameterDirection.Input; // Setting the direction
+                PmtrName.Value = categoryId;
+                List<SqlParameter> lst = new List<SqlParameter>();
+                lst.Add(PmtrName);
+                return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetProductResults](@categoryId)", lst);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return ex.ToString();
+            }
+
+        }
+
+        public object GetProductDetails(int productId)
+        {
+            var clientDbContext = new ClientDbContext();
+            try
+            {
+                //Creating instance of SqlParameter  
+                SqlParameter PmtrName = new SqlParameter();
+                PmtrName.ParameterName = "@ProductId"; // Defining Name  
+                PmtrName.SqlDbType = SqlDbType.Int; // Defining DataType  
+                PmtrName.Direction = ParameterDirection.Input; // Setting the direction
+                PmtrName.Value = productId;
+                List<SqlParameter> lst = new List<SqlParameter>();
+                lst.Add(PmtrName);
+                return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetProductDetails](@ProductId)", lst);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return ex.ToString();
+            }
+
+        }
     }
 }
