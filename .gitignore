@@ -360,8 +360,9 @@ Web/IQSoft.eCommerce.API/[Oo]bj/
 Web/IQSoft.eCommerce.API/[Oo]bj/
 
 .vs/IQSoft.eCommerce/DesignTimeBuild/.dtbcache.v2
-Infrastructure/IQSoft.eCommerce.BusinessAccess/[Bb]in/
-Infrastructure/IQSoft.eCommerce.BusinessAccess/[Bb]in/
-Common/IQSoft.eCommerce.DIContainer/[Bb]in/
-Web/IQSoft.eCommerce.API/[Bb]in/
-Web/IQSoft.eCommerce.API/[Oo]bj/
+**/Infrastructure/IQSoft.eCommerce.BusinessAccess/[Bb]in/
+**/Infrastructure/IQSoft.eCommerce.BusinessAccess/[Bb]in/
+**/Common/IQSoft.eCommerce.DIContainer/[Bb]in/
+**/Web/IQSoft.eCommerce.API/[Bb]in/
+**/Web/IQSoft.eCommerce.API/[Oo]bj/
+Web/IQSoft.eCommerce.API/bin/Debug/netcoreapp3.1/IQSoft.eCommerce.DIContainer.pdb
