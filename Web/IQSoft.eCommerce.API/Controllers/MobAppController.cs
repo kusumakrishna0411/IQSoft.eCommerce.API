@@ -131,5 +131,21 @@ namespace IQSoft.eCommerce.API.Controllers
                 return BadRequest("Error getting information GetAdditionalFiltersInfo productId " + ex.ToString());
             }
         }
+
+        [Route("[action]")]
+        [HttpGet]
+        [Authorize]
+        public object GetFilterInfoByType(int categoryId)
+        {
+            try
+            {
+                return Ok(this.userBusinessAccess.GetFilterInfoByType(categoryId));
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest("Error getting information GetFilterInfoByType categoryId " + ex.ToString());
+            }
+        }
     }
 }
