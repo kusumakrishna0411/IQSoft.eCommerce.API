@@ -28,7 +28,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public IActionResult Narasimha()
         {
             return Ok(this.userBusinessAccess.Narasimha());
@@ -36,7 +36,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public IActionResult getHomeDataDetails()
         {
             try
@@ -54,7 +54,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public object GetItemDetailsByCategoy(int categoryId)
         {
             try
@@ -70,7 +70,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public object GetItemDetailsByCategoyType2(int categoryId)
         {
             try
@@ -86,7 +86,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public object GetProductResults(int categoryId)
         {
             try
@@ -102,7 +102,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public object GetProductDetails(int productId)
         {
             try
@@ -118,7 +118,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public object GetAdditionalFiltersInfo(int categoryId)
         {
             try
@@ -134,7 +134,7 @@ namespace IQSoft.eCommerce.API.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public object GetFilterInfoByType(int categoryId)
         {
             try
@@ -145,6 +145,38 @@ namespace IQSoft.eCommerce.API.Controllers
             {
 
                 return BadRequest("Error getting information GetFilterInfoByType categoryId " + ex.ToString());
+            }
+        }
+
+        [Route("[action]")]
+        [HttpGet]
+        //[Authorize]
+        public object GetCartInfo(int categoryId)
+        {
+            try
+            {
+                return Ok(this.userBusinessAccess.GetCartInfo(categoryId));
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest("Error getting information GetCartInfo " + ex.ToString());
+            }
+        }
+
+        [Route("[action]")]
+        [HttpGet]
+        //[Authorize]
+        public object GetMenusDetails()
+        {
+            try
+            {
+                return Ok(this.userBusinessAccess.GetMenusDetails());
+            }
+            catch (System.Exception ex)
+            {
+
+                return BadRequest("Error getting information GetMenusDetails " + ex.ToString());
             }
         }
     }

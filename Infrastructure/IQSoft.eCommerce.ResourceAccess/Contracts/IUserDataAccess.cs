@@ -28,5 +28,9 @@ namespace IQSoft.eCommerce.ResourceAccess.Contracts
         public object GetAdditionalFiltersInfo(int categoryId);
 
         public object GetFilterInfoByType(int categoryId);
+
+        public object GetMenusDetails();
+
+        public object GetCartInfo(int categoryId);
     }
 }

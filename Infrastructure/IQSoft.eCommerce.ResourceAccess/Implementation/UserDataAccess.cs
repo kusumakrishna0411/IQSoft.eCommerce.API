@@ -260,5 +260,44 @@ namespace IQSoft.eCommerce.ResourceAccess.Implementation
             }
 
         }
+
+        public object GetCartInfo(int categoryId)
+        {
+            var clientDbContext = new ClientDbContext();
+            try
+            {
+                //Creating instance of SqlParameter  
+                SqlParameter PmtrName = new SqlParameter();
+                PmtrName.ParameterName = "@CategoryId"; // Defining Name  
+                PmtrName.SqlDbType = SqlDbType.Int; // Defining DataType  
+                PmtrName.Direction = ParameterDirection.Input; // Setting the direction
+                PmtrName.Value = categoryId;
+                List<SqlParameter> lst = new List<SqlParameter>();
+                lst.Add(PmtrName);
+                return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetCartInfo](@categoryId)", lst);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return ex.ToString();
+            }
+
+        }
+
+        public object GetMenusDetails()
+        {
+            var clientDbContext = new ClientDbContext();
+            try
+            {
+                List<SqlParameter> lst = new List<SqlParameter>();
+                return clientDbContext.ExecuteScalar("SELECT [dbo].[fn_GetMenusDetails]()", lst);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return ex.ToString();
+            }
+
+        }
     }
 }

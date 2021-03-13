@@ -81,6 +81,16 @@ namespace IQSoft.eCommerce.BusinessAccess.Implementation
         {
             return this.userDataAccess.GetFilterInfoByType(categoryId);
         }
+
+        public object GetCartInfo(int categoryId)
+        {
+            return this.userDataAccess.GetCartInfo(categoryId);
+        }
+
+        public object GetMenusDetails()
+        {
+            return this.userDataAccess.GetMenusDetails();
+        }
     }
    
 }
